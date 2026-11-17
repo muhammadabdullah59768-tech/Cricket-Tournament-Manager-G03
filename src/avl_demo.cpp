@@ -147,5 +147,10 @@ int main() {
     AVLPlayerTree big;
     for (int i = 1; i <= 1000; i++) big.insert(Player(i, "P", "Batsman"));
     cout << "\nHeight after 1000 sorted inserts: " << big.treeHeight() << endl;
+
+    cout<<"\nCommit test.....";
+    cout<<"\nCommit test.....";
+    cout<<"\nCommit test.....";
+    cout<<"\nCommit test.....";
     return 0;
 }
